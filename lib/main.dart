@@ -15,11 +15,12 @@ class FirebaseApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Center(
           child: InkWell(
+            onTap: () {},
             child: Text(
               'Firebase',
             ),
